@@ -1,43 +1,91 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
-    <!-- sd-->
-    <title>Web Page</title>
+    <title>Gorwast</title>
     <meta charset="utf-8">
     <link rel="icon" href="/steam_profile_pic_light_blue.jpg" type="image/x-icon">
+
+    <!--React components-->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="like_button.js"></script>
+
     <style>
-        h1 {
-            color: #fffafa;
-            text-align: center;
-            
-        }
         body {
-            color: #ffffff;
+            color: #000000;
             text-align: center;
-            background-color: #3d3d3d;
+            background-color: rgb(255, 255, 255);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
 
-        textarea {
-            background-color: #b8b8b8
+        h1 {
+            color: #fffafa;
+            text-align: center;
         }
 
+        textarea {
+            background-color: #b8b8b8;
+        }
+
+        ul {
+            border: 1px solid #0078bd6b;
+            padding-bottom: 20px;
+            text-align: left;
+
+            padding: 1cm;
+        }
+
+
+
+        a,
+        a:link {
+            color: #ffffff;
+            background-color: #ff000077;
+            padding: 10px 30px
+        }
+
+
+        a:visited {
+            color: #ffffff
+        }
+
+        a:in-range {
+            range: 50px;
+            background-color: aqua;
+        }
+    </style>
+
+    <style src ="/">
     </style>
 </head>
 
 <body>
     <div>
         <h1>Bienvenidos a mi pagina</h1>
-        <img src="/steam_profile_pic_light_blue.jpg" width="100%" height="100%">
+        <img src="/steam_profile_pic_light_blue.jpg" alt="Gorwast pic" id="imagen">
     </div>
-    <textarea class="a">Hola</textarea>
-    <button>Click me</button>
+    <div>
+        <textarea class="a"></textarea>
+        <button>Hazme click</button>
+        <p>Lista Ordenada</p>
+    </div>
+    <div>
+        <div>
+            <ul title="Lista">
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </div>
+        <div>
+            <a href="https://www.google.com">Google</a>
+        </div>
+    </div>
+    <div>
+        <iframe src="https://www.youtube.com/"></iframe>
+    </div>
 
-    <p>Lista Ordenada</p>
-    <ol title="Lista Java" ti>
-        <li>Hola</li>
-        <li>mundo</li>
-        <li>java</li>
-    </ol>
 </body>
+
 </html>

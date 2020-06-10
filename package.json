@@ -8,7 +8,5 @@
   },
   "author": "Gorwast",
   "license": "MIT",
-  "dependencies": {
-    "nes.css": "^2.1.0"
-  }
+  "dependencies": {}
 }
