@@ -2,89 +2,115 @@
 <html>
 
 <head>
-    <title>Gorwast WebPage</title>
-    <meta charset="utf-8">
-    <link rel="icon" href="/steam_profile_pic_light_blue.jpg" type="image/x-icon">
+  <title>Gorwast|WebPage</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Home of Doble L">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--React components-->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="like_button.js"></script>
+  <!--Icon not made-->
 
-    <style>
-        body {
-            color: #000000;
-            text-align: center;
-            background-color: rgb(255, 255, 255);
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-        h1 {
-            color: #fffafa;
-            text-align: center;
-        }
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        textarea {
-            background-color: #b8b8b8;
-        }
+  <!--React components-->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin=""></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin=""></script>
+  <script src="like_button.js"></script>
 
-        ul {
-            border: 1px solid #0078bd6b;
-            padding-bottom: 20px;
-            text-align: left;
+  <link rel="stylesheet" type="text/css" href="style/style.css">
 
-            padding: 1cm;
-        }
-
-
-
-        a,
-        a:link {
-            color: #ffffff;
-            background-color: #ff000077;
-            padding: 10px 30px
-        }
-
-
-        a:visited {
-            color: #ffffff
-        }
-
-        a:in-range {
-            range: 50px;
-            background-color: aqua;
-        }
-    </style>
-
-    <style src ="/">
-    </style>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div>
-        <h1>Bienvenidos a mi pagina</h1>
-        <img src="/steam_profile_pic_light_blue.jpg" alt="Gorwast pic" id="imagen">
+  <div id="Header">
+    <h1 id="top-heading">Bienvenidos a mi pagina</h1>
+    <img src="images\logo_gorwast.svg" alt="Gorwast" id="logo_gorwast">
+  </div>
+  <div id="textarea-top">
+    <textarea class="a">Introduce tu texto aqui!</textarea><button id="main-button">Hazme click</button>
+
+  </div>
+  <div id="main-list">
+    <h2>Lista Ordenada</h2>
+    <div id="main-list-body">
+      <ul title="Lista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+      </ul>
     </div>
-    <div>
-        <textarea class="a"></textarea>
-        <button>Hazme click</button>
-        <p>Lista Ordenada</p>
+
+  </div>
+  <div id="links">
+    <a href="https://www.google.com">Google.com</a>
+    <a href="https://www.youtube.com">Youtube.com</a>
+  </div>
+  <nav>
+    <div class="Navigation-bar">
+
+      <p>Hola amigos</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <div>
-        <div>
-            <ul title="Lista">
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-                <li>Elemento 3</li>
-            </ul>
-        </div>
-        <div>
-            <a href="https://www.google.com">Google</a>
-        </div>
-    </div>
-    <div>
-        <iframe src="https://www.youtube.com/"></iframe>
-    </div>
+  </nav>
+
+  <div id="Quotes">
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature.
+      The world's leading conservation organization,
+      WWF works in 100 countries and is supported by
+      1.2 million members in the United States and
+      close to 5 million.
+    </blockquote>
+  </div>
+
+  <!-- Code injected by live-server -->
+  <script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+      (function() {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            head.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            head.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function(msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        console.log('Live reload enabled.');
+      })();
+    }
+    // ]]>
+  </script>
+
+
 
 </body>
 
