@@ -1,18 +1,3 @@
-var number = 234 // in line-comment
-
-/*
-block comment
-*/
-
-/* Data types
-undefined, null, boolean, string, symbol, number and object
-*/
-
-var nonDefined;
-var nullValue = null;
-var boolValue = true;
-var stringFirst = "Hello World";
-var symbolValue;
 
 //Can be used throughout the whole code
 var name;
@@ -22,25 +7,8 @@ let ourName;
 const constName = 25;
 
 //--------------------------------------------------
-//Operators
-var sum = 10+ 10;
-console.log(sum);
-//Multiply
-sum = 10 * 10;
-console.log(sum);
 
-//Escape Sequences in strings
-/*
-Codes
-/'  single quotes
-/"  double quotes
-//  backslash
-/n  newline
-/r  carriage return
-/t  Tab
-/b  backspace
-/f  form feed
-*/
+
 
 var a = Symbol("Una cosa sol.a")
 function functionName(a) {
@@ -48,6 +16,18 @@ function functionName(a) {
     console.log(a.innerHTML);
 }
 
-function functionName(p,k) {
+function recoloring() {
+    var color1 = "red"
+    var color2 = "blue"
+
+    var bodyE = document.getElementById("color-p").style;
+    if (bodyE.backgroundColor === color1) {
+        bodyE.backgroundColor = color2;
+        bodyE.color = color1;
+    } else {
+        bodyE.backgroundColor = color1
+        bodyE.color = color2
+    }
+
 
 }

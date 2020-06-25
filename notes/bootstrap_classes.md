@@ -130,12 +130,10 @@ Complete list of all Bootstrap 4 CSS classes with description and categories:
 |.dropdown | Creates a toggleable menu that allows the user to choose one value from a predefined list |  Dropdowns |
 |.dropdown-divider | Used to separate links in the dropdown menu with a thin horizontal border |  Dropdowns |
 |.dropdown-header | Used to add headers inside the dropdown menu |  Dropdowns |
-|.dropdown-item | Creates a dropdown item (added to links or buttons inside .dropdown-menu) |  Dropdowns |
+|.dropdown-item | Creates a dropdown item (added to links or buttons inside .dropdown-menu) |Dropdowns |
 |.dropdown-item-text | Used to add plain text to a dropdown item, or used on links for default link styling |  Dropdowns |
-|.dropdown-menu | Adds the default styles for the dropdown menu container	 |
-|Dropdowns |
-|.dropdown-menu-right | Right-aligns a dropdown menu	 |
-|Dropdowns |
+|.dropdown-menu | Adds the default styles for the dropdown menu container |Dropdowns |
+|.dropdown-menu-right | Right-aligns a dropdown menu | Dropdowns |
 |.dropdown-toggle | Used on the button that should hide and show (toggle) the dropdown menu |  Dropdowns |
 |.dropleft | Left-aligns the dropdown |  Dropdowns |
 |.dropright | Right-aligns the dropdown |  Dropdowns |
