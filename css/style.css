@@ -1,44 +1,66 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #000000;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  height: 100%;
-  margin: 30px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
   min-width: 520px;
   position: relative;
   text-align: center;
 }
 
- h1, h2{
+h2 {
+  margin: 20px 0px 0px 0px;
+}
+
+footer {
+  margin: 10px 40px;
+  display: inline-block;
+}
+
+ul,
+ol {
+  text-align: left;
+}
+
+nav > ul {
   text-align: center;
+}
+
+p {
+  text-align: justify;
 }
 
 div#hobby-list-div > ul {
   padding-bottom: 20px;
-  text-align: left;
   padding: 30px;
-  border: 1px solid rgba(0, 25, 198, 0.6);
-  margin: 0;
+  margin: 10px 40px;
 }
 
 ul.section-bar > li {
   text-align: center;
   display: inline-block;
-  /* You can also add some margins here to make it look prettier */
-  zoom: 1;
-  *display: inline;
-  /* this fix is needed for IE7- */
 }
 
-a,
-a:link {
+.list-buttons > li > a {
+  color: #ffffff;
+  background-color: #1565c0;
+  padding: 10px 30px;
+}
+
+.list-buttons > li {
+  align-items: center;
+  display: inline-block;
+}
+
+.red-button {
   color: #ffffff;
   background-color: #f00;
   padding: 10px 30px;
 }
 
 a:visited {
-  color: #ffffff
+  color: #ffffff;
 }
 
 a:in-range {
@@ -46,10 +68,19 @@ a:in-range {
   background-color: aqua;
 }
 
-a.hover {
-  color: #006eff
+/* Colors */
+
+.primary-color-background {
+  background-color: #263238;
 }
 
+.dark-primary-color-background {
+  background-color: #000a12;
+}
+
+.light-primary-color-background {
+  background-color: #4f5b62;
+}
 
 .top_side {
   background: url("images\steam_profile_pic_light_blue.jpg");
@@ -58,23 +89,40 @@ a.hover {
   font-family: Verdana;
 }
 
-.intro {
-  color: rgb(10, 10, 109);
+.rainbow-bg {
+  animation-name: rainbow-bg;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+}
+
+.red-button-hover {
+  animation-name: red-button-hover;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+#about-section-div {
+  color: #fff;
+  padding: 20px 40px;
+  border-left-width: 0px;
+  border: 10px solid #1565c0;
+}
+
+#hobbie-list-div {
+  padding: 20px 10px;
 }
 
 #top-heading {
   font-size: 50px;
   color: #ffffff;
   text-align: center;
-  background-color: #01b3e6;
   padding: 20px;
 }
 
-#main-list {
-  text-align: left;
-}
-
-#logo_gorwast {
+#main-image {
   width: 50%;
 }
 
@@ -86,6 +134,27 @@ a.hover {
   body {
     /*Anything that I want in body to change when the
     viewport is less than 200px*/
+    background-color: #fff;
+  }
+}
 
+@keyframes rainbow-bg {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: green;
+  }
+  66% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes red-button-hover {
+  100% {
+    background-color: rgb(200, 0, 0);
   }
 }
