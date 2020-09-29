@@ -16,64 +16,106 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
 
 	<!-- JS -->
 	<script src="js/code.js" charset="utf-8"></script>
+
 </head>
 
-<body class="">
-	<div id="nav-bar-div" class="">
+<body>
+
+	<div id=" nav-bar-div" class="container-fluid">
 		<nav class="">
 			<ul class="nav-bar list-buttons">
-				<li><a class="red-hover-button" href="#top-heading">Home</a></li>
+
+				<li><a class="" href="#top-heading">Home</a></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="registration.html">Registration</a></li>
 				<li><a href="#about-section">About me</a></li>
+
 			</ul>
 		</nav>
 	</div>
 
-	<div class="dark-primary-color-background">
-		<h1 class="" id="top-heading">Gorwast</h1>
-	</div>
-
-	<div class="primary-color-background" id="main-image-div">
-		<img src="img\logo_gorwast.svg" alt="Gorwast" id="main-image" />
-	</div>
-
-	<div class="light-primary-color-background" id="about-section-div">
-		<div class="" id="about-section">
-			<h2>About me</h2>
-			<p>
-				Hi, my name is Enrique and I'm also known as Gorwast on the Internet,
-				I'm a student of computer systems, I'm interested in technology and
-				the development of them in general, I have my own personal projects in
-				github to have a record of my knowledge and use them in a larger
-				project in the future, feel free to take a look at what I've done
-			</p>
+	<div class="container-fluid text-center primary-color-background pt-5">
+		<div class="light-text">
+			<h1 class="" id="top-heading">Gorwast</h1>
+		</div>
+		<div class="img-fluid" id="main-image-container">
+			<img src="img\logo_gorwast.svg" alt="Gorwast" id="main-image" />
 		</div>
 	</div>
-	<div id="main-list" class="">
-		<div id="hobby-list-div">
-			<h2>My Hobbies</h2>
-			<ul title="hobby-list">
 
-				<li>Play videogames(Ptss... You can check my <a href="https://steamcommunity.com/id/gorwast">Steam
-						profile here</a>)</li>
+	<div class="container align-items-center mt-2" id="about-section-div">
 
-				<li>Listen to music</li>
-				<li>Programming</li>
-				<li>Read about new technology</li>
-			</ul>
+		<div class="row">
+			<div class="col-md-6 col-12 " id="about-section">
+
+				<h2>About me</h2>
+				<p>
+					Hi, my name is Enrique and I'm also known as Gorwast on the Internet,
+					I'm a student of computer systems, I'm interested in technology and
+					the development of them in general, I have my own personal projects in
+					github to have a record of my knowledge and use them in a larger
+					project in the future, feel free to take a look at what I've done
+				</p>
+
+
+			</div>
+			<div class="col-md-6 col-12" id="hobby-list-div">
+				<h2>My Hobbies</h2>
+				<ul title="hobby-list">
+
+					<li>Play videogames (Ptss... You can check my <a href="https://steamcommunity.com/id/gorwast">Steam
+							profile here <img src="https://simpleicons.org/icons/steam.svg" alt=""
+								style="width: 1em;"></a>)</li>
+					<li>Listen to music <svg width="1em" height="1em" viewBox="0 0 16 16"
+							class="bi bi-music-note-beamed" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+							<path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+							<path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+						</svg></li>
+					<li>Programming <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash"
+							fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z" />
+						</svg></li>
+					<li>Read about new technology <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cpu"
+							fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z" />
+						</svg></li>
+				</ul>
+
+			</div>
 		</div>
 	</div>
-	<footer class="footer">
-		<img src="img/favicon.ico" alt="Icon Gorwast" download />
-		<a class="rainbow-bg red-button" id="rainbow-button" href="#rainbow-button">Rainbow Button that does nothing</a>
+
+	<footer class="container footer btn-block text-center">
+		<img src="img/favicon.ico" alt="Icon Gorwast" />
+		<a class="rainbow-bg button-block" id="rainbow-button" href="#rainbow-button">Rainbow Button that does
+			nothing</a>
 	</footer>
+
+	<div class="container-fluid text-center" id="copyright-notice">
+		© 2020 Gorwast
+	</div>
+
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
